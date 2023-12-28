@@ -26,7 +26,6 @@ theme:
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#setting-up-navigation
     #- navigation.instant
     - navigation.path
-    - navigation.prune
     - navigation.indexes
     - navigation.top
     - navigation.tabs
@@ -39,7 +38,6 @@ theme:
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
     - search.suggest
     - search.highlight
-    - search.share
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
     - content.action.edit
     - content.action.view
@@ -50,24 +48,22 @@ theme:
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
-      accent: light blue
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: blue
       accent: light blue
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts
   font:
-    text: Archivo
+    text: Inter
     code: Chivo Mono
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language
@@ -94,6 +90,7 @@ extra_javascript:
 
 extra_css:
   - stylesheets/msdl.css
+  - stylesheets/theme.css
 
 
 extra:
@@ -158,10 +155,9 @@ nav:
         - Security: getting-started/post-installation/atlas-folder/security.md
       - Drivers:
         - Getting Started: getting-started/post-installation/drivers/getting-started.md
-        - Graphics:
-          - NVIDIA: getting-started/post-installation/drivers/gpu/nvidia.md
-          - AMD: getting-started/post-installation/drivers/gpu/amd.md
-          - Intel: getting-started/post-installation/drivers/gpu/intel.md
+        - NVIDIA: getting-started/post-installation/drivers/nvidia.md
+        - AMD: getting-started/post-installation/drivers/amd.md
+        - Intel: getting-started/post-installation/drivers/intel.md
         - Others: getting-started/post-installation/drivers/others.md
       - Software:
         - Index: getting-started/post-installation/software/index.md
@@ -188,6 +184,7 @@ nav:
       - Microsoft Store compatibility: faq-and-troubleshooting/common-questions/microsoft-store-compatibility.md
       - AME Wizard virus detection: faq-and-troubleshooting/common-questions/ame-wizard-virus-detection.md
       - Windows build not supported: faq-and-troubleshooting/common-questions/windows-build-not-supported.md
+      - Recommended Antiviruses: faq-and-troubleshooting/common-questions/recommended-antiviruses.md
 
 #
 # Plugins

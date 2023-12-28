@@ -3,7 +3,7 @@ description: See the official branding & wallpapers for AtlasOS
 icon: material/palette
 ---
 
-# Official AtlasOS Branding
+# :material-palette: Official AtlasOS Branding
 
 We're proud to share our official branding assets with our community. Whether you're making a video, a website, or a presentation, you can use these assets to show your support for AtlasOS.
 
@@ -11,7 +11,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
 !!! info "Remember the brand rules"
 
-    Please read our [Brand Guidelines](https://gcore.jsdelivr.net/gh/Atlas-OS/Atlas@main/img/Atlas%20-%20Brand%20Guidelines.pdf) for instructions on how to properly apply all of our various branding assets when applying the AtlasOS branding.
+    Please read our [Brand Guidelines](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/atlas_brand_guidelines.pdf) for instructions on how to properly apply all of our various branding assets when applying the AtlasOS branding.
 
 ## Logomarks
 
@@ -193,7 +193,7 @@ We make all of our brand assets available to the public in a variety of formats 
 
     [:material-download: Download v0.3 Version 1 Wallpaper 16:9 (3840x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/16_9/v0.3/v1/Wallpapper%2016_9%20-%20v0.3.png)
 
-    [:material-download: Downlhoad v0.3 Version 1 Wallpaper 16:10 (3440x2400)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/16_10/v0.3/v1/Wallpapper%2016_10%20-%20v0.3.png)
+    [:material-download: Download v0.3 Version 1 Wallpaper 16:10 (3440x2400)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/16_10/v0.3/v1/Wallpapper%2016_10%20-%20v0.3.png)
 
     [:material-download: Download v0.3 Version 1 Wallpaper 21:9 (5120x2160)](https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/wallpapers/21_9/v0.3/v1/Wallpapper%2021_9%20-%20v0.3.png)
 

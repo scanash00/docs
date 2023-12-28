@@ -4,11 +4,11 @@ description: Recommended text editors and IDE software for AtlasOS
 icon: material/text
 ---
 
-# Text editors and IDEs
+# :material-text: Text editors and IDEs
 
 Text editors and Integrated Development Environments (IDEs) are powerful tools for programming and writing code. However, we suggest using a word processor for writing documents. There are numerous options for text editors and IDEs, and we have compiled a list of some of them in our software installation script.
 
-By defauly we have Notepad installed. If you're looking to spice it up, check some of the options below.
+By default we have Notepad installed. If you're looking to spice it up, check some of the options below.
 
 ## Notepad++
 
